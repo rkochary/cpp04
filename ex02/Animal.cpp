@@ -26,9 +26,4 @@ Animal::~Animal()
     std::cout << "Destructor called for Animal" << std::endl;
 }
 
-void Animal::makeSound()
-{
-    std::cout << "Animal without type cant make a sound" << std::endl;
-}
-
 std::string Animal::getType() {return type;}

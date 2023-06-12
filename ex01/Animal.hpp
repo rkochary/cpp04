@@ -9,7 +9,7 @@ class Animal
         Animal(const Animal &obj);
         Animal & operator=(const Animal &obj);
         virtual ~Animal();
-        virtual void makeSound(); 
+        virtual void makeSound();
         std::string getType();
     protected:
         std::string type;
