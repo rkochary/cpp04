@@ -1,7 +1,7 @@
 #ifndef ICHERACTER_HPP
 #define ICHERACTER_HPP
 #include "AMateria.hpp"
-
+class AMateria;
 class ICharacter
 {
 public:
