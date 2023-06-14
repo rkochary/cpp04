@@ -10,7 +10,8 @@ Dog::Dog()
 Dog::Dog(const Dog &obj)
 {
     this->type = obj.type;
-    this->brain = obj.brain;
+    delete this->brain;
+    this->brain = new Brain(*obj.brain);
     std::cout << "Copy Constructor called for Dog" << std::endl;
 }
 

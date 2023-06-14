@@ -10,7 +10,8 @@ Cat::Cat()
 Cat::Cat(const Cat &obj)
 {
     this->type = obj.type;
-    this->brain = obj.brain;
+    delete this->brain;
+    this->brain = new Brain(*obj.brain);
     std::cout << "Copy Constructor called for Cat" << std::endl;
 }
 

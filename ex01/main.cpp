@@ -24,5 +24,10 @@ for(int i = 0; i < 6;i++)
         delete arr[i];
     }
 }
+
+// Dog basic; 
+// {
+//  Dog tmp = basic; 
+// } 
     return 0;
 }
